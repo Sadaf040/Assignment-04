@@ -1,0 +1,218 @@
+body{
+    background: rgba(0, 0, 0, 0.233);
+    text-transform:capitalize;
+    margin:0;
+}
+div#nav{
+    background: rgb(27, 27, 27);
+    color:white;
+    padding:5px;
+    display:block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 40px;
+    padding-top: 20px;
+}
+ul#nav-list{
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     position: relative;
+     justify-content: right;
+}
+ul#nav-list li.nav-item{
+    float:right;
+    height: 40px;
+}
+a.nav-link{
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+a.nav-link:hover{
+    color: rgb(190, 190, 190);
+}
+
+/*  body styles */
+#container{
+    width:80%;
+    background: white;
+    height: 1200px;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+#first-container{
+    width:50%;
+    height:400px;
+    float:right;
+}
+#second-container{
+    width:50%;
+    height:505px;
+}
+#promo-code{
+    background: rgba(0, 128, 0, 0.37);
+    border:2px solid green;
+    color:black;
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', tahoma, sans-serif;
+}
+#third-container{
+    width:100%;
+    height:200px;
+    padding:10px;
+}
+#banner-img{
+    width:400px;
+    margin-left:50px;
+    margin-top:10px;
+}
+div#rel-container{
+    position: relative;
+    display: flex;
+    height: 200px;
+    padding-top: 30px;
+}
+div.rel-prod{
+    width:20%;
+    padding:10px;
+    margin:10px;
+    border:5px solid black;
+    background: rgba(0, 0, 0, 0.185);
+    height: 330px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 20px 2px;
+    position: relative;
+}
+.rel-prod-img{
+    width: 200px;
+}
+.related-product-title{
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    font-size: 23px;
+}
+div.rel-prod:hover{
+    transform:scale(1.02);
+}
+.product-title{
+    width: 78%;
+    background: black;
+    border: 2px solid white;
+    padding:10px 20px 10px 20px;
+    color:white;
+    text-align: center;
+    margin-top:-3.5px;
+}
+footer{
+    width:100%;
+    padding:10px;
+    color:white;
+    text-align: center;
+    background: black;
+}
+
+/*
+ about page styles
+*/
+.about-nav{
+    position: fixed;
+    width:100%;
+    z-index: 1;
+}
+.about-container{
+    padding: 10px;
+    padding-top:60px;
+}
+#about-title{
+    padding:10px;
+    background: rgba(0, 0, 0, 0.158);
+    width: 14%;
+    text-align: center;;
+    color: rgb(53, 53, 53);
+    transition: 0.5s;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+#about-title:hover{
+    border-radius: 30px;
+    border: 1px dotted black;
+    cursor: auto;
+    background: white;
+}
+#about-detail{
+    padding: 5px;
+    transition: 0.5s;
+    border-radius: 50px;
+    width: 55%;
+    background: rgba(0, 0, 0, 0.13);
+    text-align: center;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+#about-detail:hover{
+    background: rgba(0, 0, 0, 0);
+    border: 1px dotted black;
+}
+#about-banner{
+    width:100%;
+    height: 670px;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1512429234305-12fe5b0b0f07?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QVBQTEUlMjBMQVBUT1B8ZW58MHx8MHx8fDA%3D");
+    background-size: 100%;
+}
+#about-banner-text{
+    font-size:20px;
+    float: right;
+    position: relative;
+    top:20px;
+    right:30px;
+    background: rgba(0, 0, 0, 0.397);
+    padding:13px;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px dotted rgba(0, 0, 0, 0);
+}
+#about-banner-text:hover{
+    background: rgba(255, 255, 255, 0);
+}
+#about-banner-text a{
+    color: white;
+    text-decoration: none;
+    display:block;
+    z-index: -2;
+}
+ #team-members-container{
+     width:100%;
+     height: 300px;
+ }
+ #members-container{
+    display: flex;
+    width:100%;
+    height: 200px;
+}
+ .team-member{
+     width:20%;
+     height: 250px;
+     padding:15px;
+     text-align: center;
+     margin-left: 82px;
+     transition: 0.5s;
+     border: 1px white solid;
+ }
+ .team-member:hover{
+    background: rgba(0, 0, 0, 0.13);
+    transform:scale(1.01);
+ }
+ .team-member-img{
+     width: 50%;
+ }
+
